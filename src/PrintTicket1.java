@@ -1,6 +1,5 @@
-import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import javax.swing.*;
 
 public class PrintTicket1 extends JFrame
 {
@@ -85,10 +84,12 @@ public class PrintTicket1 extends JFrame
 		Panel2.add(LDemo);
 
 
-		Panel2.add(Yugesh Verma);
-		Panel2.add(gopi pal);
-		Panel2.add(neeraj);
-		Panel2.add(sunil);
+		Panel2.add(new JLabel("Yugesh Verma"));
+        Panel2.add(new JLabel("Gopi Pal"));
+
+		Panel2.add(new JLabel("Neeraj"));
+        Panel2.add(new JLabel("Sunil"));
+
 
 
 		Panel2.setBackground(Color.white);
